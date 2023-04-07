@@ -1,0 +1,83 @@
+.app {
+  margin: 20px;
+  border: 1px solid rgb(107, 101, 101);
+  background-color: rgb(139, 243, 243);
+  border-radius: 10px;
+}
+h1,
+h2 {
+  margin: 10px 20px;
+  color: rgb(107, 101, 101);
+  font-size: 30px;
+}
+.unit {
+  font-size: 15px;
+  position: relative;
+  top: -10px;
+}
+ul {
+  position: absolute;
+  list-style: none;
+  left: 200px;
+  margin-top: -90px;
+  color: rgb(107, 101, 101);
+  font-style: italic;
+}
+.weather {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.form-control {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.temp {
+  text-decoration-line: underline;
+  font-weight: 700;
+}
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(253, 80, 0);
+  text-decoration-line: underline;
+  font-size: 18px;
+}
+.col {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+.btn-primary {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: 1px solid transparent;
+  border-radius: 3px;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-success {
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: 1px solid transparent;
+  border-radius: 3px;
+  transition: all 150ms ease-in-out;
+}
+.btn-primary:hover {
+  cursor: pointer;
+}
+.btn-success:hover {
+  cursor: pointer;
+}
