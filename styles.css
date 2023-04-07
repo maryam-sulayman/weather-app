@@ -81,3 +81,16 @@ h3 {
 .btn-success:hover {
   cursor: pointer;
 }
+.link {
+  display: block;
+  margin: 0 auto;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.link-2 {
+  text-decoration: none;
+}
+.link-2:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
